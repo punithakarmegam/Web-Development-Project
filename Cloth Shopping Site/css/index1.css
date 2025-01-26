@@ -1,0 +1,143 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    /* Sets the font to Arial, with a fallback to sans-serif */
+    line-height: 1.6;
+    /* Increases line height for readability */
+    background-color: #fff;
+    /* Sets a light gray background color */
+    color: #333;
+    /* Sets the text color to a dark gray */
+    /* background-image: url("../images/bg1.jfif"); */
+    background-size: cover;
+    /* Ensures the background image covers the entire element */
+    background-position: center;
+    /* Centers the background image */
+    background-repeat: no-repeat;
+    /* Prevents the background image from repeating */
+}
+
+
+/* Header styling */
+header { background-color: hsl(240deg 4.66% 61.34%);
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-container h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    background-image: url(../images/bg1.jfif);
+    height: 78vh;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+.main-container {
+    /* background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    position: relative;
+    left: 201px;
+    top: 135px;
+    line-height: normal;
+   
+}
+
+.main-container h2 {
+    margin-bottom: 1rem;
+}
+
+.main-container p {
+font-size: larger;
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style for anchor tags as buttons */
+.main-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff; /* Blue color for the button */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Change background color on hover */
+.main-container a:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
+/* Add some shadow effect on hover */
+.main-container a:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: Different styling for the "Register" link */
+.main-container a:nth-of-type(2) {
+    background-color: #28a745; /* Green color for the button */
+}
+
+.main-container a:nth-of-type(2):hover {
+    background-color: #218838; /* Darker green */
+}

@@ -1,0 +1,93 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif; /* Sets the font to Arial, with a fallback to sans-serif */
+    line-height: 1.6; /* Increases line height for readability */
+    background-color: #f4f4f4; /* Sets a light gray background color */
+    color: #333; /* Sets the text color to a dark gray */
+    background-image: url("../images/bg1.jfif"); /* Sets the background image */
+    background-size: cover; /* Ensures the background image covers the entire element */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+
+
+/* Header styling */
+header { background-color: hsl(240deg 4.66% 61.34%);
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-container h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-container {
+   /* background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    position: relative;
+    left: 150px;
+}
+
+.main-container h2 {
+    margin-bottom: 1rem;
+}
+
+.main-container p {
+    margin-bottom: 1rem;
+}
+
+/* Footer styling */
+footer { background-color: hsl(240deg 4.66% 61.34%);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
